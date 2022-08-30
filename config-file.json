@@ -15,10 +15,10 @@
   "ipt_type": 5,
   "color_input_size": "224, 224, 3",
   "color_output_size": 6,
-  "color_weights": "color-classification-model/224x224 - 6 classes - smaller model/mobilenet_cleaned_data_10epoch_best.hdf5",
+  "color_weights": "weights/mobilenet_color_classification.hdf5",
   "type_input_size": "224, 224, 3",
   "type_output_size": 5,
-  "type_weights": "type-classification-model/mobilenet_cleaned_data_10epoch_final.hdf5",
+  "type_weights": "weights/mobilenet_color_classification.hdf5",
   "filter_color": ["white", "blue", "black", "gray"],
   "filter_type": ["sedan"]
 }
